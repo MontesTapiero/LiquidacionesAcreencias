@@ -10,4 +10,5 @@
     $query = "INSERT INTO usuarios (nombre_completo, correo, usuario, contrasena) VALUES
     ('$nombre_completo', '$correo', '$usuario', '$contrasena')";
     $ejecutar = mysqli_query($conexion, $query);
+    // hola alvaro
 ?>
